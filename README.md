@@ -10,10 +10,21 @@ This repository contains the starter notebooks and files for Assignment 1. You w
 
 ```
 assignment-1/
-├── hw1-task1.ipynb       # Task 1: pandas data wrangling
-├── hw1-task2.ipynb       # Task 2: simple linear regression
-├── hw1-task3.md          # Task 3: statistical learning concepts (written)
-├── lakes_data.csv        # Shared dataset for Tasks 1 and 2
+├── task1/
+│   ├── hw1-task1.ipynb
+│   ├── lakes_data.csv
+│   └── tests/            # Autograder tests for Task 1
+│       ├── q1.py
+│       ├── q2.py
+│       └── ...
+├── task2/
+│   ├── hw1-task2.ipynb
+│   └── tests/            # Autograder tests for Task 2
+│       ├── q1.py
+│       ├── q2.py
+│       └── ...
+├── hw1-task3.md
+├── .gitignore
 └── README.md
 ```
 
